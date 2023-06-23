@@ -31,4 +31,5 @@ commission int,
 departmentid int foreign key references [department] (departmentid)
 )
  
-
+ ALTER TABLE employee with nocheck
+ADD FOREIGN KEY (managerid) REFERENCES dbo.employee(employeeid);
