@@ -27,10 +27,8 @@ insert into [Department] values
 (7507,'baker','leslie','d',671,7499,'10-jun-85',2200,'',40),
 (7521,'wark','cynthia','d',670,7369,'22-feb-85',1250,'500',30)
 
-select * from employee 
 
-
-foreign key references [employee](employeeid),
+ 
 
 
 
