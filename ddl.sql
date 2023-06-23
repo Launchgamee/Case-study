@@ -1,5 +1,5 @@
-create database case_study
-use case_study
+--create database case_study
+--use case_study
 
 create table [Location] 
 (LocationID int primary key,
@@ -24,10 +24,11 @@ lastname varchar (50),
 firstname varchar (50),
 middlename varchar (50),
 jobid int foreign key references[job] (jobid),
-managerid int foreign key references [employee](employeeid),
+managerid int,
 hiredate varchar(50),
 salary money,
 commission int,
 departmentid int foreign key references [department] (departmentid)
 )
  
+
