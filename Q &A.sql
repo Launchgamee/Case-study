@@ -2,26 +2,35 @@
 
 --1. LIST ALL THE EMPLOYEE DETAILS.
 
-     select * from employee 
+     select * 
+     from employee 
 
 --2. LIST ALL THE DEPARTMENT DETAILS
 
-     select * from department
+     select * 
+     from department
 
 --3. LIST ALL JOB DETAILS.
 
-     select * from job 
+     select * 
+     from job 
 
 --4. LIST ALL THE LOCATIONS.
 
-     select * from [location]
+     select * 
+     from [location]
 --5.LIST OUT THE FIRSTNAME,LASTNAME,SALARY,COMMISSION FOR ALL EMPLOYEES.
   
-  select firstname,lastname,salary, commissionfrom employee
+    select firstname,
+    lastname,
+    salary, commission 
+    from employee
 
 --6. LIST OUT EMPLOYEEID,LASTNAME,DEPARTMENTID FOR ALL EMPLOYEES AND
--- ALIAS EMPLOYEEID AS "ID OF THE EMPLOYEE",LAST NAME AS "NAME OF THE EMPLOYEE",
---DEPARTMENTID AS "DEP_ID".
+--   ALIAS EMPLOYEEID AS "ID OF THE EMPLOYEE",LAST NAME AS "NAME OF THE EMPLOYEE",
+--   DEPARTMENTID AS "DEP_ID".
+
+   
 --7. LIST OUT THE EMPLOYEES ANNUAL SALARY WITH THEIR NAMES ONLY.
 --WHERE CONDITION:
 --1. LIST THE DETAILS ABOUT "SMITH"
