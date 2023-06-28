@@ -31,6 +31,11 @@ DEPARTMENTID dept_ID
 from employee
 
 --7. LIST OUT THE EMPLOYEES ANNUAL SALARY WITH THEIR NAMES ONLY.
+
+select
+	 concat(firstname, ' ' ,lastname) [Name],
+	 salary 
+	 from employee
 --WHERE CONDITION:
 --1. LIST THE DETAILS ABOUT "SMITH"
 --2. LIST OUT THE EMPLOYEES WHO ARE WORKING IN DEPARTMENT 20.
