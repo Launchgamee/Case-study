@@ -25,8 +25,8 @@ from employee
 -- ALIAS EMPLOYEEID AS "ID OF THE EMPLOYEE",LAST NAME AS "NAME OF THE EMPLOYEE",
 --DEPARTMENTID AS "DEP_ID".
 select 
-employeeid [id of the employee]
-lastname [name of the employee]
+employeeid [id of the employee],
+lastname [name of the employee],
 DEPARTMENTID dept_ID
 from employee
 
