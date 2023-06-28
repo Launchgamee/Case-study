@@ -8,14 +8,28 @@ from employee
 select *
 from department
 --3. LIST ALL JOB DETAILS.
-select * from job
+select 
+* from job
 --4. LIST ALL THE LOCATIONS.
- select city from LOCATIONS
+ select city
+  from LOCATIONS
 --5.LIST OUT THE FIRSTNAME,LASTNAME,SALARY,COMMISSION FOR ALL EMPLOYEES.
+select 
+firstname,
+lastname,
+salary,
+COMMISSION
+from employee
 
 --6. LIST OUT EMPLOYEEID,LASTNAME,DEPARTMENTID FOR ALL EMPLOYEES AND
 -- ALIAS EMPLOYEEID AS "ID OF THE EMPLOYEE",LAST NAME AS "NAME OF THE EMPLOYEE",
 --DEPARTMENTID AS "DEP_ID".
+select 
+employeeid [id of the employee]
+lastname [name of the employee]
+DEPARTMENTID dept_ID
+from employee
+
 --7. LIST OUT THE EMPLOYEES ANNUAL SALARY WITH THEIR NAMES ONLY.
 --WHERE CONDITION:
 --1. LIST THE DETAILS ABOUT "SMITH"
