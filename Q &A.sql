@@ -38,8 +38,14 @@ select
 	 from employee
 --WHERE CONDITION:
 --1. LIST THE DETAILS ABOUT "SMITH"
+      select * from employee 
+	  where lastname = 'smith'
 --2. LIST OUT THE EMPLOYEES WHO ARE WORKING IN DEPARTMENT 20.
+       select * from employee 
+	   where departmentid =20
 --3. LIST OUT THE EMPLOYEES WHO ARE EARNING SALARY BETWEEN 3000 AND 4500.
+  select * from employee 
+  where salary between 3000 and 4000
 --4. LIST OUT THE EMPLOYEES WHO ARE WORKING IN DEPARTMENT 10 OR 20.
 --5. FIND OUT THE EMPLOYEES WHO ARE NOT WORKING IN DEPARTMENT 10 OR 30.
 --6. LIST OUT THE EMPLOYEES WHOSE NAME STARTS WITH 'S'.
