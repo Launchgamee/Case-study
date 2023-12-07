@@ -12,6 +12,7 @@ name varchar (50),
 locationid int foreign key references [location](locationid)
 )
 
+
 create table job 
 ( jobID int primary key,
 designation varchar(50)
